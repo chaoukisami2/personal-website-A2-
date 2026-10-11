@@ -1,0 +1,58 @@
+/* chaoukisami2 */
+:root {
+  --night: #101a28;
+  --night-soft: #182536;
+  --ink: #17202a;
+  --muted: #687381;
+  --paper: #f5f3ed;
+  --white: #fffefa;
+  --gold: #d6a65c;
+  --line: #d9d6cc;
+}
+
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+body { margin: 0; color: var(--ink); background: var(--paper); font-family: Arial, Helvetica, sans-serif; }
+a { color: inherit; }
+.site-header { height: 76px; padding: 0 8%; display: flex; align-items: center; justify-content: space-between; background: var(--night); color: var(--white); }
+.wordmark { font-size: .71rem; letter-spacing: .14em; font-weight: 700; text-decoration: none; }
+.wordmark span { color: var(--gold); }
+nav { display: flex; gap: 34px; }
+nav a { color: #c4cbd2; font-size: .76rem; text-decoration: none; }
+nav a:hover { color: var(--gold); }
+.hero { min-height: 610px; padding: 72px 10% 82px; display: grid; grid-template-columns: 1fr .92fr; gap: 7%; align-items: center; position: relative; overflow: hidden; background: var(--night); color: var(--white); }
+.hero-copy { position: relative; z-index: 1; }
+.eyebrow { margin: 0; color: var(--gold); text-transform: uppercase; letter-spacing: .16em; font-size: .64rem; font-weight: 700; }
+.hero-copy .eyebrow span { display: inline-block; width: 6px; height: 6px; margin: 0 9px 2px 0; border-radius: 50%; background: var(--gold); }
+h1, h2, blockquote { font-family: Georgia, 'Times New Roman', serif; font-weight: 400; }
+h1 { margin: 25px 0 22px; font-size: 4.3rem; line-height: 1.02; letter-spacing: -.055em; }
+h1 em { color: var(--gold); font-weight: 400; }
+.intro { max-width: 430px; color: #c1cad3; font-size: .94rem; line-height: 1.85; }
+.text-link { display: inline-block; margin-top: 20px; color: var(--white); font-size: .78rem; font-weight: 700; text-decoration: none; }
+.text-link span { margin-left: 12px; color: var(--gold); }
+.hero-photo { margin: 0; position: relative; z-index: 1; }
+.hero-image { display: block; width: 100%; height: 370px; object-fit: cover; object-position: 53% center; border: 1px solid rgba(255,255,255,.18); }
+figcaption { display: flex; justify-content: space-between; gap: 15px; margin-top: 13px; color: #acb7c2; font-size: .65rem; line-height: 1.5; }
+figcaption span { flex: 0 0 auto; color: var(--gold); font-weight: 700; letter-spacing: .08em; }
+.hero-index { position: absolute; left: -15px; bottom: -132px; color: rgba(255,255,255,.025); font-family: Georgia, serif; font-size: 28rem; line-height: 1; }
+.journal { min-height: 350px; padding: 78px 13%; display: grid; grid-template-columns: .68fr 1.5fr .2fr; gap: 7%; align-items: start; background: var(--white); }
+.journal-label { padding-top: 11px; }
+.rule { display: block; width: 42px; height: 1px; margin: 24px 0 14px; background: var(--gold); }
+.small-label { color: #92989e; font-size: .6rem; letter-spacing: .12em; }
+.journal-copy h2 { margin: 0 0 22px; font-size: 2.5rem; line-height: 1.13; letter-spacing: -.03em; }
+.journal-copy p { max-width: 610px; color: var(--muted); font-size: .87rem; line-height: 1.85; }
+.journal-mark { color: var(--gold); font-size: 3.2rem; text-align: right; }
+.noticing { padding: 78px 11% 88px; background: var(--paper); }
+.section-heading { text-align: center; }
+.section-heading h2 { margin: 12px 0 0; font-size: 2.25rem; letter-spacing: -.025em; }
+.detail-grid { max-width: 1050px; margin: 46px auto 0; display: grid; grid-template-columns: repeat(3, 1fr); gap: 38px; }
+.detail-card { min-height: 188px; border-top: 1px solid var(--line); padding-top: 17px; }
+.detail-number { color: #a17435; font-size: .66rem; letter-spacing: .1em; font-weight: 700; }
+h3 { margin: 16px 0 10px; font-family: Georgia, 'Times New Roman', serif; font-size: 1.35rem; font-weight: 400; }
+.detail-card p { margin: 0; color: var(--muted); font-size: .82rem; line-height: 1.75; }
+.closing-note { padding: 72px 20px 77px; text-align: center; background: var(--night-soft); color: var(--white); }
+.closing-note blockquote { margin: 17px auto 13px; font-size: 2.5rem; }
+.closing-note > p:last-child { color: #bdc6ce; font-size: .8rem; }
+footer { min-height: 88px; padding: 25px 8%; display: flex; align-items: center; justify-content: space-between; gap: 20px; background: var(--night); color: var(--white); }
+footer p, .footer-mark { color: #aeb8c2; font-size: .68rem; }
+.footer-mark { color: var(--gold); letter-spacing: .08em; }
