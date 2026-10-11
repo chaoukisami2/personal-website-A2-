@@ -51,8 +51,12 @@ figcaption span { flex: 0 0 auto; color: var(--gold); font-weight: 700; letter-s
 h3 { margin: 16px 0 10px; font-family: Georgia, 'Times New Roman', serif; font-size: 1.35rem; font-weight: 400; }
 .detail-card p { margin: 0; color: var(--muted); font-size: .82rem; line-height: 1.75; }
 .closing-note { padding: 72px 20px 77px; text-align: center; background: var(--night-soft); color: var(--white); }
+.closing-eyebrow { margin: 0; font-family: Arial, Helvetica, sans-serif; }
 .closing-note blockquote { margin: 17px auto 13px; font-size: 2.5rem; }
 .closing-note > p:last-child { color: #bdc6ce; font-size: .8rem; }
 footer { min-height: 88px; padding: 25px 8%; display: flex; align-items: center; justify-content: space-between; gap: 20px; background: var(--night); color: var(--white); }
 footer p, .footer-mark { color: #aeb8c2; font-size: .68rem; }
 .footer-mark { color: var(--gold); letter-spacing: .08em; }
+
+
+
