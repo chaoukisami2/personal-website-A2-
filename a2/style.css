@@ -59,4 +59,23 @@ footer p, .footer-mark { color: #aeb8c2; font-size: .68rem; }
 .footer-mark { color: var(--gold); letter-spacing: .08em; }
 
 
+@media (max-width: 760px) {
+  .site-header { height: auto; padding: 20px 7%; align-items: flex-start; flex-direction: column; gap: 16px; }
+  nav { flex-wrap: wrap; gap: 18px; }
+  .hero { min-height: auto; padding: 58px 7% 66px; grid-template-columns: 1fr; gap: 36px; }
+  h1 { font-size: clamp(3.2rem, 13vw, 4.2rem); }
+  .hero-photo { width: 100%; max-width: 480px; }
+  .hero-image { height: 360px; }
+  .journal { min-height: auto; padding: 58px 8%; grid-template-columns: 1fr; gap: 23px; }
+  .journal-mark { text-align: left; font-size: 2.5rem; }
+  .journal-copy h2 { font-size: 2.15rem; }
+  .noticing { padding: 60px 8% 68px; }
+  .section-heading h2 { font-size: 1.9rem; }
+  .detail-grid { grid-template-columns: 1fr; gap: 24px; margin-top: 34px; }
+  .detail-card { min-height: auto; padding-bottom: 4px; }
+  .closing-note { padding: 58px 8%; }
+  .closing-note blockquote { font-size: 2rem; }
+  footer { padding: 24px 7%; flex-wrap: wrap; }
+  footer p { flex-basis: 100%; margin: 0; }
+}
 
